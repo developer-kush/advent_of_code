@@ -103,7 +103,9 @@ def safe(a, b):
             if grid[i][j] != '#': return False
     return True
 
-# for row in grid: print(''.join(row))
+# Uncomment to print grid
+# with open('grid.txt', 'w') as f:
+#     for row in grid: f.write(''.join(row)+'\n')
 
 res = 0
 for x in range(n):
